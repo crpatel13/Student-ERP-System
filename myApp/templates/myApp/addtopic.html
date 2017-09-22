@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'myApp/base.html' %}
+
+{% block body_block %}
+        <h2>Add topic</h2>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.as_p}}
+            <input type="submit" value="submit">
+        </form>
+
+{% endblock %}
+{% block links %}
+    <a href="{% url 'myApp:about' %}">About page</a>
+        {% endblock %}
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail page</title>
+</head>
+<body>
+{% extends 'myApp/base.html' %}
+
+{% block content %}
+  {% for d in content %}
+      <p>{{d}}</p>
+    {% endfor %}
+{% endblock %}
+
+
+
+
+
+</body>
+</html>

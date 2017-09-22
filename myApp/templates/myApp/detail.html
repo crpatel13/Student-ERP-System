@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail page</title>
+</head>
+
+{% extends 'myApp/base.html' %}
+
+{% block body_block %}
+    <b>Title of course</b>
+    <p>{{ Title}}</p><br>
+    <b> Number of Course: </b><br>
+    <p>{{ course_no }}</p>
+    <b>Name of textbook:</b>
+    <p>{{ Textbook}}</p>
+{% endblock %}
+
+</body>
+</html>

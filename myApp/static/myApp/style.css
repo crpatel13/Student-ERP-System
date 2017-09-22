@@ -1,0 +1,18 @@
+.hbar1 {
+    display: inline;
+    margin: 20px;
+
+}
+h1 {
+    font-style: italic;
+    margin-left: 40%;
+}
+p{
+    font-size: larger;
+}
+div
+{
+    background-color: #609ab6;
+    font-size: large;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+}
